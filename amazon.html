@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="sai jahnavi">
+    <meta name="keywords" content="HTML,CSS">
+    <meta name="description" content="we are learning bootstrap">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMAZON.IN</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <style>
+        /* *{
+            border: 2px solid red;
+        } */
+
+        .seller:hover {
+            border: 2px solid white;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="container-fluid bg-dark ">
+        <section class="d-flex align-items-center justify-content-evenly">
+            <section class="navbar nav text-center text-light ">
+
+                <div>
+                    <a href="#" class=" seller text-decoration-none text-light p-1 "> <img
+                            src="https://pnggrid.com/wp-content/uploads/2021/05/Amazon-Logo-Transparent-1024x310.png"
+                            width="95vw" alt=""></a>
+                </div>
+                <div class=" seller d-flex align-items-center" style="width:10%;">
+                    <ion-icon class="" name="location-outline" style=" width: 4vw; height: 5vh;"></ion-icon>
+                    <h6> <small>Select your address</small></h6>
+                </div>
+                <div class="d-flex">
+                    <input type="text" class="  btn btn-light fw-bold" data-bs-toggle="dropdown" data-bs-tareget="#drop"
+                        style="width: 4vw;" placeholder="All">
+
+
+                    <ul class="dropdown-menu" id="drop">
+                        <li class="dropdown-item">All categories</li>
+                        <li class="dropdown-item">Alexa skills</li>
+                        <li class="dropdown-item">Amazon Devices</li>
+                        <li class="dropdown-item">Amazon Fashion</li>
+                        <li class="dropdown-item">Amazon Fresh</li>
+                        <li class="dropdown-item">Amazon Pharmacy</li>
+                        <li class="dropdown-item">Appliances</li>
+                        <li class="dropdown-item">Apps & Games</li>
+                        <li class="dropdown-item">Baby</li>
+                        <li class="dropdown-item">Beauty</li>
+                        <li class="dropdown-item">Books</li>
+                        <li class="dropdown-item">Car &Motorbike</li>
+                        <li class="dropdown-item">Clothing & Accessories</li>
+                        <li class="dropdown-item">Collectibles</li>
+                        <li class="dropdown-item">Computers & Accessories</li>
+                        <li class="dropdown-item">Deals</li>
+                    </ul>
+                    <input type="text" style="width: 40vw;"><a href="#"
+                        class="text-decoration-none text-dark px-1 bg-warning rounded">
+                        <ion-icon class=" fw-bold" name="search-outline" style="height: 5vh;"></ion-icon>
+                    </a>
+                </div>
+                <div class="seller text-center">
+                    <p>English
+                        <img class="" src="./img/Screenshot 2022-09-16 110800.png" height="20vh" alt="">
+                    </p>
+                </div>
+                <div class="seller">
+                    Hello, sign in
+                    <h6>Account & Lists</h6>
+                </div>
+                <div class="seller">
+                    Returns
+                    <h6>& Orders</h6>
+                </div>
+                <div class="seller">
+                    <h5>
+                        <ion-icon name="cart-outline" style=" width: 4vw; height: 5vh;"></ion-icon>
+                        Cart
+                    </h5>
+                </div>
+            </section>
+        </section>
+    </section>
+
+
+    <section class="container-fluid bg-dark text-light">
+        <section class="nav-tabs">
+            <section class="d-flex justify-content-evenly flex-wrap align-items-center">
+                <h6 class="seller btn text-light  " data-bs-toggle="dropdown">
+                    <ion-icon name="menu-sharp"></ion-icon>All
+                </h6>
+                <h6 class="seller">Best Sellers</h6>
+                <h6 class="seller">Mobiles</h6>
+                <h6 class="seller">Customer Service</h6>
+                <h6 class="seller">Today's Deals</h6>
+                <h6 class="seller">Books</h6>
+                <h6 class="seller">Electronics</h6>
+                <h6 class="seller">Fashion</h6>
+                <h6 class="seller">Prime</h6>
+                <h6 class="seller">New Releases</h6>
+                <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IN-hq/2021/img/Mobile_Traffic_/XCM_Manual_1321458_1651511_IN_3781247_400x39_en_IN._CB655944656_.jpg"
+                    alt="">
+            </section>
+
+        </section>
+    </section>
+    <section class="card">
+
+        <section class="container-fluid">
+            <section class="carousel slide" id="id_1" data-bs-ride="carousel">
+                <section class="carousel-indicators">
+                    <button type="button" data-bs-target="#id_1" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#id_1" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#id_1" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#id_1" data-bs-slide-to="3"></button>
+                    <button type="button" data-bs-target="#id_1" data-bs-slide-to="4"></button>
+                    <button type="button" data-bs-target="#id_1" data-bs-slide-to="5"></button>
+                    <button type="button" data-bs-target="#id_1" data-bs-slide-to="6"></button>
+
+                </section>
+
+
+
+                <section class="carousel-inner" style="height:350%;">
+                    <section class="carousel-item active">
+                        <img src="./img/img1.jpg" style="width:100%;height:400px;" class="d-block active" alt="">
+                    </section>
+                    <section class="carousel-item ">
+                        <img src="./img/img2.jpg" style="width:100%;height:400px" class="d-block" alt="">
+                    </section>
+                    <section class="carousel-item">
+                        <img src="./img/img3.jpg" style="width:100%; height:400px" class="d-block" alt="">
+                    </section>
+                    <section class="carousel-item">
+                        <img src="./img/img4.jpg" style="width:100%;height:400px" class="d-block" alt="">
+                    </section>
+                    <section class="carousel-item">
+                        <img src="./img/img5.jpg" style="width:100%;height:400px" class="d-block" alt="">
+                    </section>
+                    <section class="carousel-item">
+                        <img src="./img/img6.jpg" style="width:100%;height:400px" class="d-block" alt="">
+                    </section>
+                    <section class="carousel-item">
+                        <img src="./img/img7.jpg" style="width:100%;height:400px" class="d-block" alt="">
+                    </section>
+
+
+                </section>
+
+
+                <button class="carousel-control-prev" data-bs-target="#id_1" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+
+                <button class="carousel-control-next" data-bs-target="#id_1" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </section>
+        </section>
+    </section>
+
+    <section class="container-fluid">
+
+
+        <section class="d-flex flex-wrap justify-content-evenly">
+            <section class="card" style="width:auto;">
+                <section class="card-header">
+                    <h5>Pre-book offers starting ₹1</h5>
+                </section>
+                <section class="card-body">
+                    <div class="d-flex justify-content-evenly">
+                        <div>
+                            <p><img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Events/Jupiter-22/DB/Pre-book_PCCC_1X._SY304_CB609740278_.jpg"
+                                    alt="" width="100%;" style="height:43vh;">
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <section class="card-footer text-success">
+                    <h6>See all upcoming offers</h6>
+                </section>
+            </section>
+            <section class="card d-flex flex-wrap" style="width:auto;">
+                <section class="card-header">
+                    <h6>Upgrade your home | Amazon Brands & more</h6>
+                </section>
+                <section class="card-body">
+                    <div class="d-flex justify-content-evenly">
+                        <div>
+                            <p><img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/AmazonBrands/GW/TV_1x._SY116_CB627443840_.jpg"
+                                    alt="" width="90%">
+                            </p>
+                            <p><small>Smart LED TVs</small></p>
+                        </div>
+                        <div>
+                            <p> <img src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonSmallBusinessDay/PrivateBrands/GW20/GW_Desktop_QC_Appliances_1X_V2_3._SY116_CB636581536_.jpg"
+                                    alt="" width="90%"></p>
+                            <p><small>Appliances</small></p>
+                        </div>
+                    </div>
+
+
+                    <div class="d-flex justify-content-evenly">
+                        <div>
+                            <p> <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/AmazonBrands/GW/Furn_1x._SY116_CB627275939_.jpg"
+                                    alt="" width="90%"></p>
+                            <p>Furniture</p>
+                        </div>
+                        <div>
+                            <p><img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/AmazonBrands/GW/Kitchen_1x._SY116_CB627276315_.jpg"
+                                    alt="" width="90%"></p>
+                            <p>Kitchen products</p>
+                        </div>
+                    </div>
+
+                </section>
+                <section class="card-footer text-success">
+                    <h6>Shop Now</h6>
+                </section>
+
+            </section>
+
+
+
+
+            <section class="card" style="width:auto;">
+                <section class="card-header">
+                    <h5>#AmazonSeLiya</h5>
+                </section>
+                <section class="card-body">
+                    <div class="d-flex justify-content-evenly">
+                        <div>
+                            <p><img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Events/Jupiter-22/kiosk/PC_CC_UNREC_1x_EN._SY304_CB609456025_.jpg"
+                                    alt="" width="100%;" style="height:43vh;">
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <section class="card-footer text-success">
+                    <h6>See all upcoming offers</h6>
+                </section>
+            </section>
+
+        </section>
+    </section>
+
+
+
+    <section class="container-fluid mt-4 ">
+        <section class="d-flex flex-wrap justify-content-evenly  text-center" style="width:auto;">
+            <section class="d-flex  border p-2 ">
+                <section>
+                    <h6>Styles for Women</h6>
+                    <p><img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PC_WF/WF1-186-116._SY116_CB636048992_.jpg"
+                            alt="" width="60%"></p>
+                    <p>Women's Clothing</p>
+                    <p><img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PC_WF/WF2-186-116._SY116_CB636048992_.jpg"
+                            alt="" width="60%"></p>
+                    <p>Footwear+Handbags</p>
+                    <h6 class="text-success">Shop now</h6>
+                </section>
+                <section class="mt-4">
+                    <p><img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PC_WF/WF4-186-116._SY116_CB636048992_.jpg"
+                            alt="" width="60%"></p>
+                    <p>Watches</p>
+                    <p><img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PC_WF/WF3-186-116._SY116_CB636048992_.jpg"
+                            alt="" width="60%"></p>
+                    <p>Fashion jewellery</p>
+
+                </section>
+
+            </section>
+
+
+
+            <section class="d-flex  border p-2 ">
+                <section>
+                    <h6>Amazon Pay </h6>
+                    <p><img src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonSmallBusinessDay/PrivateBrands/GW20/GW_Desktop_Daily_essentials_QC_1X_V2_1._SY116_CB636581721_.jpg"
+                            alt="" width="60%"></p>
+                    <p>Smart LED TVs</p>
+                    <p><img src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonSmallBusinessDay/PrivateBrands/GW20/GW_Desktop_Softlines_QC_1X_V2_5._SY116_CB636581721_.jpg"
+                            alt="" width="60%"></p>
+                    <p>Appliances+</p>
+                    <h6 class="text-success">See all offers</h6>
+                </section>
+                <section class="mt-4">
+                    <p><img src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonSmallBusinessDay/PrivateBrands/GW20/GW_Desktop_QC_Furniture_1X_V2_4._SY116_CB636581721_.jpg"
+                            alt="" width="60%"></p>
+                    <p>Furniture</p>
+                    <p><img src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonSmallBusinessDay/PrivateBrands/GW20/GW_Desktop_Home_QC_1X_V2_2._SY116_CB636581721_.jpg"
+                            alt="" width="60%"></p>
+                    <p>Kitchen products</p>
+                </section>
+            </section>
+
+            <section class="d-flex  border p-2 ">
+                <section>
+                    <h6>Shop by Category</h6>
+                    <p><img src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/2020/PC/Fresh._SY116_CB431401553_.jpg"
+                            alt="" width="60%"></p>
+                    <p>Fresh</p>
+                    <p><img src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/2020/PC/Mobile._SY116_CB431401553_.jpg"
+                            alt="" width="60%"></p>
+                    <p>Mobiles</p>
+                    <h6 class="text-success">See more</h6>
+                </section>
+                <section class="mt-4">
+                    <p><img src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/2020/PC/Fashion._SY116_CB431401553_.jpg"
+                            alt="" width="60%"></p>
+                    <p>Fashion</p>
+                    <p><img src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/2020/PC/Electronic._SY116_CB431401553_.jpg"
+                            alt="" width="60%"></p>
+                    <p>Electronics</p>
+                </section>
+            </section>
+        </section>
+    </section>
+
+
+
+
+
+
+    <section class="container-fluid mt-4">
+        <section class="border p-2">
+            <span class="h5">Get 750 diamonds, min ₹300 purchase | Home picks from local shops </span> <small
+                class="text-success">See all offers</small>
+            <div class="d-flex align-items-center justify-content-evenly flex-wrap">
+
+
+                <img src="https://m.media-amazon.com/images/I/91kw8asswcL._AC_SY200_.jpg" width="auto" alt="">
+                <img src="https://m.media-amazon.com/images/I/71NiE8BxEAL._AC_SY200_.jpg" width="auto" alt="">
+
+                <img src="https://m.media-amazon.com/images/I/81F5S+0kv2L._AC_SY200_.jpg" width="auto" alt="">
+
+                <img src="https://m.media-amazon.com/images/I/712XqusGzoL._AC_SY200_.jpg" width="auto" alt="">
+                <img src="https://m.media-amazon.com/images/I/716ysFAxmAL._AC_SY200_.jpg" width="auto" alt="">
+                <img src="https://m.media-amazon.com/images/I/61x6YpunEvL._AC_SY200_.jpg" width="auto" alt="">
+            </div>
+
+        </section>
+    </section>
+
+
+
+    <section class="container-fluid mt-4">
+        <section class="border p-2">
+            <span class="h5">Explore jewellery collection for the festivities | Local shops collection </span> <small
+                class="text-success">Explore More</small>
+            <div class="d-flex align-items-center justify-content-evenly flex-wrap">
+
+                <img src="https://m.media-amazon.com/images/I/61PJ4VR7iRL._AC_SY200_.jpg" width="auto" alt="">
+                <img src="https://m.media-amazon.com/images/I/91HiTZp-riS._AC_SY200_.jpg" width="auto" alt="">
+                <img src="https://m.media-amazon.com/images/I/91kiqbHOzwL._AC_SY200_.jpg" width="auto" alt="">
+                <img src="https://m.media-amazon.com/images/I/71ic1wv1c7L._AC_SY200_.jpg" width="auto" alt="">
+                <img src="https://m.media-amazon.com/images/I/713iof6mHQS._AC_SY200_.jpg" width="auto" alt="">
+                <img src="https://m.media-amazon.com/images/I/61p8vFDzBaL._AC_SY200_.jpg" width="auto" alt="">
+
+            </div>
+
+        </section>
+    </section>
+
+
+
+
+    <section class="container-fluid mt-4 ">
+        <section class="d-flex flex-wrap justify-content-evenly  text-center" style="width:auto;">
+
+
+            <section class="card" style="width:auto;">
+                <section class="card-header">
+                    <h5>Sell on Amazon with 50% off </h5>
+                </section>
+                <section class="card-body">
+                    <div class="d-flex justify-content-evenly">
+                        <div>
+                            <p><img src="https://images-eu.ssl-images-amazon.com/images/G/31/amazonservices/landing/Option4_379x304._SY304_CB629577209_.jpg"
+                                    alt="" width="100%;" style="height:30vh;">
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <section class=" text-success">
+                    <h6>See all upcoming offers</h6>
+                </section>
+            </section>
+
+
+
+            <section class="d-flex  border p-2 ">
+                <section>
+                    <h6>Amazon Pay </h6>
+                    <p><img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Events/Jupiter-22/PC-QC/coupons_qc_1x._SY116_CB609653682_.jpg"
+                            alt="" width="60%"></p>
+                    <p>Smart LED TVs</p>
+                    <p><img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Events/Jupiter-22/PC-QC/pc_combos_qc_1x._SY116_CB609653682_.jpg"
+                            alt="" width="60%"></p>
+                    <p>Appliances+</p>
+                    <h6 class="text-success">See all offers</h6>
+                </section>
+                <section class="mt-4">
+                    <p><img src="https://images-eu.ssl-images-amazon.com/images/G/31/amazonservices/landing/PC_QuadCard_new_186x116._SY116_CB609624691_.png"
+                            alt="" width="60%"></p>
+                    <p>Furniture</p>
+                    <p><img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Events/Jupiter-22/PC-QC/PC_QuadCard_372X232_BB0.5x._SY116_CB609653682_.jpg"
+                            alt="" width="60%"></p>
+                    <p>Kitchen products</p>
+                </section>
+            </section>
+
+            <section class="d-flex  border p-2 ">
+                <section>
+                    <h6>Shop by Category</h6>
+                    <p><img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Wireless/sabikhit/ASCENT/D55457717_INWLD_ASCENT-Jupiter_PC_QuadCard_186X116_2._SY116_CB610952368_.jpg"
+                            alt="" width="60%"></p>
+                    <p>Fresh</p>
+                    <p><img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Wireless/sabikhit/ASCENT/D55457717_INWLD_ASCENT-Jupiter_PC_QuadCard_186X116._SY116_CB610952877_.jpg"
+                            alt="" width="60%"></p>
+                    <p>Mobiles</p>
+                    <h6 class="text-success">See more</h6>
+                </section>
+                <section class="mt-4">
+                    <p><img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/Smasung-PC-QC-1x._SY116_CB611055170_.jpg"
+                            alt="" width="60%"></p>
+                    <p>Fashion</p>
+                    <p><img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Wireless/sabikhit/ASCENT/PC_QuadCard_372X2320.5x._SY116_CB611054904_.jpg"
+                            alt="" width="60%"></p>
+                    <p>Electronics</p>
+                </section>
+            </section>
+        </section>
+    </section>
+
+
+
+
+    <section class="container-fluid mt-4">
+        <section class="border p-2">
+            <span class="h5">New arrivals décor picks from local shops </span> <small class="text-success">Explore
+                More</small>
+            <div class="d-flex align-items-center justify-content-evenly flex-wrap">
+
+                <img src="https://m.media-amazon.com/images/I/61lvWAwSNxL._AC_SY200_.jpg" width="auto" alt="">
+                <img src="https://m.media-amazon.com/images/I/71rbTJWXC5L._AC_SY200_.jpg" width="auto" alt="">
+                <img src="https://m.media-amazon.com/images/I/51fuD3e0BAL._AC_SY200_.jpg" width="auto" alt="">
+                <img src="https://m.media-amazon.com/images/I/81pEaSe3MML._AC_SY200_.jpg" width="auto" alt="">
+                <img src="https://m.media-amazon.com/images/I/71UpFy4RCVL._AC_SY200_.jpg" width="auto" alt="">
+                <img src="https://m.media-amazon.com/images/I/51Y-GlagJfL._AC_SY200_.jpg" width="auto" alt="">
+            </div>
+
+        </section>
+    </section>
+
+
+
+
+
+    <section class="container-fluid mt-4">
+        <section class="border p-2">
+            <span class="h5">Up to 60% off | Glassware & dinnerware sets from local shop </span> <small
+                class="text-success">Explore More</small>
+            <div class="d-flex align-items-center justify-content-evenly flex-wrap">
+
+                <img src="https://m.media-amazon.com/images/I/31OrhlKPTmL._AC_SY200_.jpg" width="auto" alt="">
+                <img src="https://m.media-amazon.com/images/I/51F-wymX4KL._AC_SY200_.jpg" width="auto" alt="">
+                <img src="https://m.media-amazon.com/images/I/61IvMU-+yAS._AC_SY200_.jpg" width="auto" alt="">
+                <img src="https://m.media-amazon.com/images/I/71F+Yls8enL._AC_SY200_.jpg" width="auto" alt="">
+                <img src="https://m.media-amazon.com/images/I/71H0qjr+MXL._AC_SY200_.jpg" width="auto" alt="">
+                <img src="https://m.media-amazon.com/images/I/71myVKWKSpL._AC_SY200_.jpg" width="auto" alt="">
+            </div>
+
+        </section>
+    </section>
+
+
+
+    <section class="container-fluid mt-3">
+        <section class="d-flex flex-wrap justify-content-around text-center" style="width:auto;">
+            <section class="border p-2" style="width:auto;">
+
+                <h5>Pick up where you left off </h5>
+
+
+                <div>
+                    <div>
+                        <p><img src="https://m.media-amazon.com/images/I/611VCf3+LBL._AC_SY175_.jpg" alt="" width="50%;"
+                                style="height:30vh;">
+                        </p>
+                        <p>Wolpin Large Capacity Pencil Bag, </p>
+
+                        ₹169.00M.R.P: <strike>₹999.00</strike></p>
+                    </div>
+                </div>
+
+                <section>
+                    <img src="https://m.media-amazon.com/images/I/611VCf3+LBL._AC_SY55_.jpg" alt="">
+                    <img src="https://m.media-amazon.com/images/I/61EG6EuotsL._AC_SY55_.jpg" alt="">
+                    <img src="https://m.media-amazon.com/images/I/71TaxFdWnHL._AC_SY55_.jpg" alt="">
+                    <img src="https://m.media-amazon.com/images/I/61AaLbSsduL._AC_SY55_.jpg" alt="">
+                </section>
+            </section>
+
+
+
+
+
+            <section class="d-flex  align-items-center border p-2 ">
+                <section>
+                    <h6>Shop by Category</h6>
+                    <p><img src="https://images-eu.ssl-images-amazon.com/images/G/31/IN-hq/2019/img/Kitchen/XCM_Manual_186x116_1198417XCM_Manual_1198417__1_1573567224_jpg_LOWER_QL85_._SY116_CB448746450_.jpg"
+                            alt="" width="80%"></p>
+                    <p>Fresh</p>
+                    <p><img src="https://images-eu.ssl-images-amazon.com/images/G/31/IN-hq/2019/img/Kitchen/XCM_Manual_186x116_1198417XCM_Manual_1198417__2_1573567224_jpg_LOWER_QL85_._SY116_CB448746415_.jpg"
+                            alt="" width="80%"></p>
+                    <p>Mobiles</p>
+                    <h6 class="text-success">See more</h6>
+                </section>
+                <section>
+                    <p><img src="https://images-eu.ssl-images-amazon.com/images/G/31/IN-hq/2019/img/Kitchen/XCM_Manual_186x116_1198417XCM_Manual_3_copyx400x2C5x_1573713358_jpg_LOWER_QL85_._SY116_CB448746425_.jpg"
+                            alt="" width="80%"></p>
+                    <p>Fashion</p>
+                    <p><img src="https://images-eu.ssl-images-amazon.com/images/G/31/IN-hq/2019/img/Kitchen/XCM_Manual_186x116_1198417XCM_Manual_1198417__4_1573567224_jpg_LOWER_QL85_._SY116_CB448746450_.jpg"
+                            alt="" width="80%"></p>
+                    <p>Electronics</p>
+                </section>
+            </section>
+
+
+            <section class="d-flex align-items-center  border p-2 ">
+                <section>
+                    <h6>Shop by Category</h6>
+                    <p><img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/PC/Computers/GW/DBQC/D21343116_IN_CEPC_BAU_GW_graphics_March21_dbqc0.5x_5._SY116_CB655805757_.jpg"
+                            alt="" width="80%"></p>
+                    <p>Fresh</p>
+                    <p><img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/PC/Computers/GW/DBQC/D21343116_IN_CEPC_BAU_GW_graphics_March21_dbqc0.5x_6._SY116_CB655805757_.jpg"
+                            alt="" width="80%"></p>
+                    <p>Mobiles</p>
+                    <h6 class="text-success">See more</h6>
+                </section>
+                <section class="">
+                    <p><img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/PC/Computers/GW/DBQC/D21343116_IN_CEPC_BAU_GW_graphics_March21_dbqc0.5x_7._SY116_CB655805757_.jpg"
+                            alt="" width="80%"></p>
+                    <p>Fashion</p>
+                    <p><img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/PC/Computers/GW/DBQC/D21343116_IN_CEPC_BAU_GW_graphics_March21_dbqc0.5x_8._SY116_CB655805757_.jpg"
+                            alt="" width="80%"></p>
+                    <p>Electronics</p>
+                </section>
+            </section>
+
+        </section>
+    </section>
+
+
+    <section class="container-fluid mt-4">
+        <section class="border p-2">
+            <span class="h5">Related to items you've viewed </span> <small class="text-success">Explore More</small>
+            <div class="d-flex align-items-center justify-content-evenly flex-wrap">
+
+                <img src="https://m.media-amazon.com/images/I/61dOqFpgz0L._AC_SY200_.jpg" width="auto" alt="">
+                <img src="https://m.media-amazon.com/images/I/71SM11I8t5S._AC_SY200_.jpg" width="auto" alt="">
+                <img src="https://m.media-amazon.com/images/I/51pZiAiPYiL._AC_SY200_.jpg" width="auto" alt="">
+                <img src="https://m.media-amazon.com/images/I/41PXcnmGS+L._AC_SY200_.jpg" width="auto" alt="">
+                <img src="https://m.media-amazon.com/images/I/81jGfnkO2DL._AC_SY200_.jpg" width="auto" alt="">
+                <img src="https://m.media-amazon.com/images/I/61esKyxQTOL._AC_SY200_.jpg" width="auto" alt="">
+                <img src="https://m.media-amazon.com/images/I/51NxDOD-b7L._AC_SY200_.jpg" width="auto" alt="">
+                <img src="https://m.media-amazon.com/images/I/611TxhEQZ6L._AC_SY200_.jpg" width="auto" alt="">
+            </div>
+
+        </section>
+    </section>
+
+
+    <section class="container-fluid mt-4">
+        <section class="border p-2">
+            <span class="h5">Get 750 diamonds, min ₹300 purchase | Ethnic wear from local shops </span> <small
+                class="text-success">Explore More</small>
+            <div class="d-flex align-items-center justify-content-evenly flex-wrap">
+
+                <img src="https://m.media-amazon.com/images/I/91QGJ0nmQRL._AC_SY200_.jpg" width="auto" alt="">
+                <img src="https://m.media-amazon.com/images/I/91wxlZXnPmL._AC_SY200_.jpg" width="auto" alt="">
+                <img src="https://m.media-amazon.com/images/I/81BNIdtoYcL._AC_SY200_.jpg" width="auto" alt="">
+                <img src="https://m.media-amazon.com/images/I/91zXT0cmlWL._AC_SY200_.jpg" width="auto" alt="">
+                <img src="https://m.media-amazon.com/images/I/71z8wm0n92L._AC_SY200_.jpg" width="auto" alt="">
+                <img src="https://m.media-amazon.com/images/I/71Xgnz3tYcL._AC_SY200_.jpg" width="auto" alt="">
+                <img src="https://m.media-amazon.com/images/I/81SP-sovgGL._AC_SY200_.jpg" width="auto" alt="">
+                <img src="https://m.media-amazon.com/images/I/91uUoAa84XL._AC_SY200_.jpg" width="auto" alt="">
+            </div>
+
+        </section>
+    </section>
+
+
+
+
+    <section class="container-fluid mt-4">
+        <section class="border p-2">
+            <span class="h5">Get 750 diamonds, min ₹300 purchase | Ethnic wear from local shops </span> <small
+                class="text-success">Explore More</small>
+            <div class="d-flex align-items-center justify-content-evenly flex-wrap">
+
+                <img src="https://m.media-amazon.com/images/I/51ZBqKhH4nL._AC_SY200_.jpg" width="auto" alt="">
+                <img src="https://m.media-amazon.com/images/I/71zu2FrS1JL._AC_SY200_.jpg" width="auto" alt="">
+                <img src="https://m.media-amazon.com/images/I/61ZjaqqnocS._AC_SY200_.jpg" width="auto" alt="">
+                <img src="https://m.media-amazon.com/images/I/61co9N8sL3L._AC_SY200_.jpg" width="auto" alt="">
+                <img src="https://m.media-amazon.com/images/I/41Buld9rFmL._AC_SY200_.jpg" width="auto" alt="">
+                <img src="https://m.media-amazon.com/images/I/61ftPN+jalL._AC_SY200_.jpg" width="auto" alt="">
+
+            </div>
+
+        </section>
+    </section>
+
+
+
+
+    <hr>
+    <section class="text-center">
+        <h6>See personalized recommendations</h6>
+        <button type="button" class="btn btn-warning w-25">Sign in</button>
+        <h6>New customer?<small class="text-success">Start here</small>.</h6>
+    </section>
+    <hr>
+    <section class="bg-dark text-center ">
+        <a href="#" class="text-decoration-none fw-bold text-light  ">Back to top</a>
+    </section>
+
+    <section class="container-fluid bg-dark text-light p-3 ">
+        <section class="d-flex justify-content-evenly flex-wrap my-4">
+            <section>
+                <ul type="none">
+                    <li class="fw-bold">Get to Know Us</li>
+                    <li>About Us</li>
+                    <li>Careers</li>
+                    <li> Press Releases</li>
+                    <li>Amazon Cares</li>
+                    <li>Gift a Smile</li>
+                    <li>Amazon Science</li>
+                </ul>
+            </section>
+            <section>
+                <ul type="none">
+                    <li class="fw-bold">Connect with Us</li>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                </ul>
+            </section>
+            <section>
+                <ul type="none">
+                    <li class="fw-bold">Make Money with Us</li>
+                    <li>Sell on Amazon</li>
+                    <li>Sell under Amazon Accelerator</li>
+                    <li>Amazon Global Selling</li>
+                    <li>Become an Affiliate</li>
+                    <li>Fulfilment by Amazon</li>
+                    <li>Advertise Your Products</li>
+                    <li>Amazon Pay on Merchants</li>
+                </ul>
+            </section>
+
+
+            <section>
+                <ul type="none">
+                    <li class="fw-bold">Let Us Help You</li>
+                    <li>COVID-19 and Amazon</li>
+                    <li>Your Account</li>
+                    <li>Returns Centre</li>
+                    <li>100% Purchase Protection</li>
+                    <li>Amazon App Download</li>
+                    <li>Amazon Assistant Download</li>
+                    <li>Help</li>
+                </ul>
+            </section>
+        </section>
+
+
+
+        <hr>
+
+
+        <section class="text-center">
+
+            <section class="d-flex text-center justify-content-center gap-3 align-items-center ">
+                <img src="https://pnggrid.com/wp-content/uploads/2021/05/Amazon-Logo-Transparent-1024x310.png"
+                    width="95vw" alt="">
+
+                <section class="border" style="width:20%;">
+                    <ion-icon name="globe-outline"></ion-icon> English
+                </section>
+
+            </section>
+            <section class=" d-flex mt-4 flex-wrap justify-content-center gap-3">
+                <p>Australia</p>
+                <p>Brazil</p>
+                <p>Canada</p>
+                <p>China</p>
+                <p>France</p>
+                <p>Germany</p>
+                <p>Italy</p>
+                <p>Japan</p>
+                <p>Mexico</p>
+                <p>Netherlands</p>
+                <p>Poland</p>
+                <p>Singapore</p>
+                <p>Spain</p>
+                <p>Turkey</p>
+                <p>United</p>
+                <p>Arab</p>
+                <p>Emirates</p>
+            </section>
+            <p>United Kingdom United States</p>
+        </section>
+
+        <section class="d-flex justify-content-evenly flex-wrap">
+            <section>
+                <ul type="none">
+                    <li> <small> AbeBooks</small></li>
+                    <li> <small> Books, art</small></li>
+                    <li> <small> & collectibles</small></li>
+                </ul>
+            </section>
+            <section>
+                <ul type="none">
+                    <li> <small>Amazon Web Services
+
+                        </small></li>
+                    <li> <small> Scalable Cloud</small></li>
+                    <li> <small>Computing Services</small></li>
+                </ul>
+            </section>
+            <section>
+                <ul type="none">
+                    <li> <small> Audible
+
+                        </small></li>
+                    <li> <small> Download</small></li>
+                    <li> <small> Audio Books</small></li>
+                </ul>
+            </section>
+            <section>
+                <ul type="none">
+                    <li> <small> DPReview
+
+                        </small></li>
+                    <li> <small> Digital</small></li>
+                    <li> <small> Photography</small></li>
+                </ul>
+            </section>
+            <section>
+                <ul type="none">
+                    <li> <small> IMDb
+
+
+                        </small></li>
+                    <li> <small>Movies, TV</small></li>
+                    <li> <small>& Celebrities</small></li>
+                </ul>
+            </section>
+        </section>
+
+
+
+        <section class="d-flex justify-content-evenly   flex-wrap" style="width:92%;">
+            <section>
+                <ul type="none">
+                    <li> <small> Shopbop</small></li>
+                    <li> <small> Designer</small></li>
+                    <li> <small> Fashion Brands</small></li>
+                </ul>
+            </section>
+            <section>
+                <ul type="none">
+                    <li> <small>Amazon Business</small></li>
+                    <li> <small> Everything For</small></li>
+                    <li> <small>Your Business</small></li>
+                </ul>
+            </section>
+            <section>
+                <ul type="none">
+                    <li> <small> Prime Now</small></li>
+                    <li> <small> 2-Hour Delivery</small></li>
+                    <li> <small> on Everyday Items</small></li>
+                </ul>
+            </section>
+            <section>
+                <ul type="none">
+                    <li> <small> Amazon Prime Music</small></li>
+                    <li> <small> 90 million songs, ad-free</small></li>
+                    <li> <small> Over 15 million podcast episodes</small></li>
+                </ul>
+            </section>
+            
+        </section>
+
+        <section class="text-center mt-5">
+          <p>  <small>Conditions of Use & Sale
+            Privacy Notice
+            Interest-Based Ads
+        </small></p>
+               <small> © 1996-2022, Amazon.com, Inc. or its affiliates</small>
+        </section>
+
+
+    </section>
+
+
+
+
+
+</body>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</html>
